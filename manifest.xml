@@ -9,10 +9,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
+  <project path="bionic" name="platform/bionic" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="platform/dalvik" />
@@ -28,7 +29,6 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
@@ -97,11 +97,14 @@
   <project path="external/yaffs2" name="" />
   <project path="external/zlib" name="platform/external/zlib" />
 
+  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
+
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
@@ -109,6 +112,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+
   <project path="sdk" name="platform/sdk" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
@@ -143,6 +147,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -173,7 +178,6 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
-
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" />
 
