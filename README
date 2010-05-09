@@ -1,0 +1,11 @@
+This is basically a REPO manifest that is designed to pull everything
+needed in order to build the Sapphire ROM for DROID.
+
+This manifest was originally based on that given by Topsy at
+
+  http://github.org/Topsy
+
+without which I would have had much difficulty beginning this project.
+
+To check out the source, retrieve REPO from the android kernel
+git repository, and execute the following command:
