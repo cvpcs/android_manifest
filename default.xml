@@ -94,7 +94,6 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="" />
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
