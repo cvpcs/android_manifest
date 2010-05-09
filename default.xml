@@ -9,11 +9,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="cyanogen/android_build" remote="github" revision="eclair" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="platform/dalvik" />
@@ -95,8 +94,8 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
-
   <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
+  <project path="external/cwiid" name="cvpcs/android_external_cwiid" remote="github" revision="master" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
@@ -142,6 +141,7 @@
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" revision="eclair" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -173,8 +173,8 @@
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
 
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
