@@ -9,3 +9,6 @@ without which I would have had much difficulty beginning this project.
 
 To check out the source, retrieve REPO from the android kernel
 git repository, and execute the following command:
+
+  repo init -u http://github.com/cvpcs/sapphire.git -b eclair
+  repo sync
