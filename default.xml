@@ -2,7 +2,8 @@
 <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" />
-  <remote name="cvpcs" fetch="git://www.cvpcs.org/" />
+  <remote name="gitorious" fetch="git://gitorious.org/" />
+  <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg" />
 
@@ -10,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="cyanogen/android_build" remote="github" revision="eclair" />
+  <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
