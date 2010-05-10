@@ -2,6 +2,7 @@
 <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/" />
+  <remote name="cvpcs" fetch="git://www.cvpcs.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg" />
 
@@ -95,7 +96,8 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
-  <project path="external/cwiid" name="cvpcs/android_external_cwiid" remote="github" revision="master" />
+  <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00" />
+  <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
