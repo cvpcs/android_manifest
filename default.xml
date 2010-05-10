@@ -100,11 +100,11 @@
   <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" revision="eclair" />
   <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" revision="eclair" />
 
-  <project path="frameworks/base" name="Topsy/platform_frameworks_base" remote="github" revision="eclair" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="Topsy/platform_frameworks_policies_base" remote="github" revision="eclair" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -179,7 +179,7 @@
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
-  <project path="vendor/cyanogen" name="Topsy/android_vendor_cyanogen" remote="github" revision ="alldroid" />
+  <project path="vendor/cyanogen" name="Topsy/android_vendor_cyanogen" remote="github" revision ="eclair" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="eclair" />
 </manifest>
