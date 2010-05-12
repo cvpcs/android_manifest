@@ -4,6 +4,7 @@
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org/" />
   <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
+  <remote name="droiddev" fetch="git://git.droiddev.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
@@ -15,7 +16,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
+  <project path="bootable/recovery" name="sprecovery.git" remote="droiddev" revision="recovery-0.99.4f-238" />
 
   <project path="dalvik" name="platform/dalvik" />
 
