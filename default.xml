@@ -179,7 +179,7 @@
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" revision ="eclair" />
+  <project path="vendor/cyanogen" name="Topsy/android_vendor_cyanogen" remote="github" revision ="eclair" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="eclair" />
 </manifest>
