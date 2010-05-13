@@ -8,15 +8,15 @@
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
-  <project path="build" name="cyanogen/android_build" remote="github" revision="eclair" >
+  <project path="build" name="cyanogen/android_build.git" remote="github" revision="eclair">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
+  <project path="bionic" name="cyanogen/android_bionic.git" remote="github" revision="eclair" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="sprecovery.git" remote="droiddev" revision="master" />
+  <project path="bootable/recovery" name="bootable/recovery" />
 
   <project path="dalvik" name="platform/dalvik" />
 
@@ -92,14 +92,13 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1" />
-  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" revision="eclair" />
-  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" revision="eclair" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
@@ -168,9 +167,9 @@
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="platform/system/core" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="system/core" name="Topsy/platform_system_core" remote="github" revision="eclair" />
-  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
+  <project path="system/extras" name="cyanogen/android_system_extras.git" remote="github" revision="eclair" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
