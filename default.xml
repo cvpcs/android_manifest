@@ -5,7 +5,6 @@
   <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
   <remote name="koush" fetch="git://github.com/koush/" />
   <remote name="tourach23" fetch="git://github.com/tourach23/" />
-  <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
@@ -97,9 +96,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/busybox" name="android_external_busybox" remote="cyanogen" revision="master" />
-  <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00" />
-  <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
-  <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1" />
   <project path="external/webkit" name="android_external_webkit" remote="cyanogen" revision="eclair" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="eclair" />
 
@@ -144,7 +140,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" /> 
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/Launcher2" name="UltimateL2" remote="tourach23" revision="master" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="tourach23" revision="master" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cyanogen" revision="eclair" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -184,5 +180,4 @@
   <project path="vendor/cyanogen" name="android_vendor_cyanogen" remote="Topsy" revision ="eclair" />
   <project path="vendor/google/passion" name="android_vendor_google_passion" remote="cyanogen" revision="eclair" />
   <project path="vendor/motorola/sholes-open" name="android_vendor_motorola_sholes-open" remote="koush" revision="master" />
-  <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="eclair" />
 </manifest>
