@@ -170,7 +170,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+  <project path="system/core" name="android_system_core" remote="cyanogen" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="system/extras" name="android_system_extras" remote="cyanogen" revision="eclair" />
 
