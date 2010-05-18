@@ -13,7 +13,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="android_bionic" remote="cyanogen" revision="eclari" />
+  <project path="bionic" name="android_bionic" remote="cyanogen" revision="eclair" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -97,8 +97,7 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/busybox" name="android_external_busybox" 
-remote="cyanogen" revision="master" />
+  <project path="external/busybox" name="android_external_busybox" remote="cyanogen" revision="master" />
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00" />
   <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1" />
