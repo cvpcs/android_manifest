@@ -4,12 +4,11 @@
   <remote name="Topsy" fetch="git://github.com/Topsy/" />
   <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
   <remote name="koush" fetch="git://github.com/koush/" />
-  <remote name="tourach23" fetch="git://github.com/tourach23/" />
   <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
-  <project path="build" name="android_build" remote="cyanogen" revision="eclair">
+  <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
