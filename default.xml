@@ -5,7 +5,6 @@
   <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
   <remote name="koush" fetch="git://github.com/koush/" />
   <remote name="tourach23" fetch="git://github.com/tourach23/" />
-  <remote name="dylex" fetch="git://github.com/dylex/" />
   <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
@@ -14,7 +13,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="cyanogen" revision="eclari" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -98,7 +97,8 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/busybox" name="android_external_busybox" remote="dylex" revision="master" />
+  <project path="external/busybox" name="android_external_busybox" 
+remote="cyanogen" revision="master" />
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00" />
   <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1" />
