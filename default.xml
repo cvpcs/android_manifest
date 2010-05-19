@@ -8,7 +8,7 @@
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android_build" remote="cvpcs" revision="eclair">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
