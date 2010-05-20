@@ -169,8 +169,8 @@
 
   <project path="system/core" name="platform/system/core" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="eclair" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
