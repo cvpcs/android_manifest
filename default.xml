@@ -99,8 +99,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="busybox-1.15.3-eclair" />
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-eclair" />
   <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
-  <project path="external/libebml" name="android_external_libebml" remote="cvpcs" revision="libebml-0.7.8-eclair" />
-  <project path="external/libmatroska" name="android_external_libmatroska" remote="cvpcs" revision="libmatroska-0.8.1-eclair" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
   <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="eclair" />
 
