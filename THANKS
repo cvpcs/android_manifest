@@ -1,0 +1,19 @@
+Overall Thanks:
+	tourach23
+
+Individaul Thanks:
+	build (cvpcs)
+
+	external/busybox (cyanogen/cvpcs)
+	external/compcache (cyanogen)
+	external/cwiid (cvpcs)
+	external/fuse (cyanogen)
+	external/iptables (cyanogen)
+	external/libc-ext (cvpcs)
+	external/vixie-cron (cvpcs)
+
+	packages/app/Superuser (cyanogen)
+
+	vendor/motorola/sholes (koush)
+	vendor/cyanogen (cyanogen)
+	vendor/cvpcs (cvpcs)
