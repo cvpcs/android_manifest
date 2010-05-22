@@ -96,11 +96,11 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/busybox" name="android_external_busybox" remote="cyanogen" revision="master" />
+  <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="eclair" />
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-eclair" />
   <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
   <project path="external/fuse" name="android_external_fuse" remote="cyanogen" revision="master" />
-  <project path="external/iptables" name="android_external_iptables" remote="cyanogen" revision="master" />
+  <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
   <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="eclair" />
 
