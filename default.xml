@@ -22,6 +22,8 @@
 
   <project path="development" name="platform/development" />
 
+  <project path="kernel" name="android_kernel" remote="cvpcs" revision="android-omap-2.6.29-sapphire-eclair" />
+
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
