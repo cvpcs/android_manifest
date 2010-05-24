@@ -100,6 +100,7 @@
   <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-eclair" />
   <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
   <project path="external/fuse" name="android_external_fuse" remote="cyanogen" revision="master" />
+  <project path="external/iptables" name="android_external_iptables" remote="cyanogen" revision="master" />
   <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
   <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="eclair" />
@@ -118,7 +119,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="sdk" name="platform/sdk" />
+  <project path="kernel" name="android_kernel" remote="cvpcs" revision="android-omap-2.6.29-sapphire-eclair" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -169,6 +170,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
+
+  <project path="sdk" name="platform/sdk" />
 
   <project path="system/core" name="platform/system/core" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
