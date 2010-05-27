@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
-  <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
+  <remote name="ChainsDD" fetch="git://github.com/ChainsDD/" />
   <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
+  <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
@@ -145,7 +146,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" /> 
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cyanogen" revision="eclair" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="ChainsDD" revision="eclair" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
