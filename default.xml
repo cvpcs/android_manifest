@@ -103,6 +103,7 @@
   <project path="external/fuse" name="android_external_fuse" remote="cyanogen" revision="master" />
   <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-eclair" />
+  <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-eclair" />
   <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="eclair" />
   <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
   <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="eclair" />
