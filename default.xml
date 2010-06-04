@@ -71,7 +71,6 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
@@ -106,15 +105,16 @@
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
     <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-eclair" />
     <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-eclair" />
+    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
     <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="eclair" />
     <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
     <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
 
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
