@@ -4,6 +4,7 @@
   <remote name="ChainsDD" fetch="git://github.com/ChainsDD/" />
   <remote name="cvpcs" fetch="git://git.cvpcs.org/" />
   <remote name="cyanogen" fetch="git://github.com/cyanogen/" />
+  <remote name="kruton" fetch="git://github.com/kruton/" />
   <remote name="tourach23" fetch="git://github.com/tourach23/" />
 
   <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
@@ -96,17 +97,18 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-eclair" />
-  <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="eclair" />
-  <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-eclair" />
-  <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
-  <project path="external/fuse" name="android_external_fuse" remote="cyanogen" revision="master" />
-  <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-eclair" />
-  <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-eclair" />
-  <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="eclair" />
-  <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
-  <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="eclair" />
+    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-eclair" />
+    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="eclair" />
+    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-eclair" />
+    <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
+    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
+    <project path="external/fuse" name="android_external_fuse" remote="cyanogen" revision="master" />
+    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="eclair" />
+    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-eclair" />
+    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-eclair" />
+    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="eclair" />
+    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-eclair" />
+    <project path="external/webkit" name="android_external_webkit" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
@@ -121,8 +123,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-
-  <project path="kernel" name="android_kernel" remote="cvpcs" revision="android-omap-2.6.29-sapphire-eclair" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -149,8 +149,8 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" /> 
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="tourach23" revision="sapphire" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="ChainsDD" revision="eclair" />
+    <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="tourach23" revision="sapphire" />
+    <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="ChainsDD" revision="eclair" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -179,7 +179,7 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="eclair" />
+    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
@@ -188,5 +188,5 @@
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
-  <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="eclair" />
+    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="eclair" />
 </manifest>
