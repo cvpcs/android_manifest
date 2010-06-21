@@ -21,7 +21,7 @@
 
   <project path="dalvik" name="platform/dalvik" />
 
-  <project path="development" name="platform/development" />
+  <project path="development" name="android_development" remote="cvpcs" revision="android-2.1_r2.1s-sapphire" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
