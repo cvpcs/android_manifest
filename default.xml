@@ -3,10 +3,14 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+  <remote  name="cvpcs"
+           fetch="git://git.cvpcs.org/" />
+  <remote  name="ChainsDD"
+           fetch="git://github.com/ChainsDD/" />
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" remote="cvpcs" name="android_build" revision="froyo-sapphire">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -150,10 +154,14 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_SuperUser" revision="eclair" />
+
   <project path="packages/experimental" name="platform/packages/experimental" />
+
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -163,6 +171,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
@@ -177,4 +186,5 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
+  <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo" />
 </manifest>
