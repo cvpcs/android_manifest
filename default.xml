@@ -125,7 +125,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
     <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-sapphire" />
-    <project path="frameworks/policies/base" name="android_frameworks_policies_base" revision="froyo-sapphire" />
+    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-sapphire" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
