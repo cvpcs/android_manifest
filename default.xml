@@ -7,6 +7,8 @@
            fetch="git://git.cvpcs.org/" />
   <remote  name="ChainsDD"
            fetch="git://github.com/ChainsDD/" />
+  <remote  name="kruton"
+           fetch="git://github.com/kruton/" />
   <default revision="froyo"
            remote="korg" />
 
@@ -22,7 +24,7 @@
 
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+    <project path="development" name="android_development" remote="cvpcs" revision="froyo-sapphire" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
@@ -82,7 +84,6 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
@@ -112,10 +113,12 @@
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
+    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
     <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
     <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
     <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-froyo" />
+    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="froyo-sapphire" />
     <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
     <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-froyo" />
 
