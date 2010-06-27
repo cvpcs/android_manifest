@@ -39,7 +39,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -111,6 +110,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-sapphire" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
     <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
     <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
