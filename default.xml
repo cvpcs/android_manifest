@@ -5,8 +5,6 @@
            review="review.source.android.com" />
   <remote  name="cvpcs"
            fetch="git://git.cvpcs.org/" />
-  <remote  name="cyanogen"
-           fetch="git://github.com/cyanogen/" />
   <remote  name="ChainsDD"
            fetch="git://github.com/ChainsDD/" />
   <remote  name="kruton"
@@ -114,7 +112,7 @@
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
     <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-sapphire" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
-    <project path="external/compcache" name="android_external_compcache" remote="cyanogen" revision="master" />
+    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
     <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
     <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
