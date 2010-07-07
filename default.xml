@@ -33,7 +33,8 @@
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
   <project path="device/htc/sapphire" name="device/htc/sapphire" />
   <project path="device/sample" name="device/sample" />
-    <project path="device/cvpcs" name="android_device_cvpcs" remote="cvpcs" revision="froyo" />
+    <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="froyo" />
+    <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="froyo" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -171,7 +172,6 @@
     <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="eclair" />
 
-
   <project path="packages/experimental" name="platform/packages/experimental" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -201,4 +201,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
     <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="froyo-sapphire" />
+
+    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo" />
 </manifest>
