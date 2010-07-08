@@ -167,6 +167,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="eclair-froyo" />
 
