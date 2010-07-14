@@ -119,7 +119,7 @@
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
     <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
     <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-froyo" />
-    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="v2.50-sapphire" />
+    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="froyo" />
     <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
     <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-froyo" />
 
