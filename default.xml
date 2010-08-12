@@ -14,7 +14,7 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" remote="cvpcs" name="android_build" revision="froyo-sapphire">
+  <project path="build" remote="cvpcs" name="android_build" revision="froyo-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -114,7 +114,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
-    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-sapphire" />
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
     <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="CyanogenMod" revision="master" />
@@ -129,8 +129,8 @@
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-sapphire" />
-    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-sapphire" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-gem" />
+    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-gem" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -175,7 +175,7 @@
     <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="master" />
     <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="froyo-sapphire" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="froyo-gem" />
     <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="eclair-froyo" />
 
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -192,7 +192,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cvpcs" revision="froyo-sapphire" />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cvpcs" revision="froyo-gem" />
 
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -205,8 +205,8 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-    <project path="system/core" name="android_system_core" remote="cvpcs" revision="froyo-sapphire" />
-    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="froyo-sapphire" />
+    <project path="system/core" name="android_system_core" remote="cvpcs" revision="froyo-gem" />
+    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="froyo-gem" />
 
-    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo" />
+    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo-gem" />
 </manifest>
