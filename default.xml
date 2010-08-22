@@ -179,7 +179,7 @@
     <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="eclair-froyo" />
+    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="master" />
 
   <project path="packages/experimental" name="platform/packages/experimental" />
 
