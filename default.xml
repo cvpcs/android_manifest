@@ -9,6 +9,8 @@
            fetch="git://github.com/ChainsDD/" />
   <remote  name="kruton"
            fetch="git://github.com/kruton/" />
+  <remote  name="koush"
+           fetch="git://github.com/koush/" />
   <remote  name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
   <remote  name="dylex"
@@ -24,7 +26,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="koush" revision="froyo" />
 
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
