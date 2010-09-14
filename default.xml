@@ -9,8 +9,6 @@
            fetch="git://github.com/ChainsDD/" />
   <remote  name="kruton"
            fetch="git://github.com/kruton/" />
-  <remote  name="CyanogenMod"
-           fetch="git://github.com/CyanogenMod/" />
   <remote  name="dylex"
            fetch="git://github.com/dylex/" />
   <remote  name="koush"
@@ -121,7 +119,7 @@
     <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
     <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="CyanogenMod" revision="master" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
     <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
     <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
