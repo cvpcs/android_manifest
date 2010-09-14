@@ -13,6 +13,8 @@
            fetch="git://github.com/CyanogenMod/" />
   <remote  name="dylex"
            fetch="git://github.com/dylex/" />
+  <remote  name="koush"
+           fetch="git://github.com/koush/" />
   <default revision="froyo"
            remote="korg" />
 
@@ -114,7 +116,6 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
     <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
@@ -130,6 +131,7 @@
     <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
     <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
     <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-froyo" />
+    <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="froyo" />
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
