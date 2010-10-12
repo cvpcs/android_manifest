@@ -13,6 +13,8 @@
            fetch="git://github.com/dylex/" />
   <remote  name="koush"
            fetch="git://github.com/koush/" />
+  <remote  name="slayher"
+	   fetch="git://github.com/slayher/" />
   <default revision="froyo"
            remote="korg" />
 
@@ -39,7 +41,7 @@
   <project path="device/sample" name="device/sample" />
     <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="froyo" />
     <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="froyo" />
-    <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="froyo" />
+    <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="slayher" revision="master" />
     <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="froyo" />
     <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="froyo" />
 
