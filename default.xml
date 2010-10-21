@@ -118,7 +118,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
-    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="slayher" revision="master" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
     <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
