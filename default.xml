@@ -136,7 +136,7 @@
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-gem" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="slayher" revision="froyo-gem-obsidian" />
     <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-gem" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
