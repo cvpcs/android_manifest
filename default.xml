@@ -177,7 +177,7 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
     <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="froyo-gem" />
+    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
     <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="froyo-gem" />
     <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
