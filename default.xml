@@ -122,6 +122,7 @@
     <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-froyo" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
     <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
+    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="froyo" />
     <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
     <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
     <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
