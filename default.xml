@@ -13,10 +13,10 @@
            fetch="git://github.com/dylex/" />
   <remote  name="koush"
            fetch="git://github.com/koush/" />
-  <default revision="froyo"
+  <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" remote="cvpcs" name="android_build" revision="froyo-gem">
+#!  <project path="build" remote="cvpcs" name="android_build" revision="gingerbread-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -24,24 +24,22 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="froyo" />
+#    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread" />
 
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream" name="device/htc/dream" />
-  <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
   <project path="device/htc/passion" name="device/htc/passion" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/htc/sapphire" name="device/htc/sapphire" />
   <project path="device/sample" name="device/sample" />
-    <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="froyo" />
-    <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="froyo" />
-    <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="froyo" />
-    <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="froyo" />
-    <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="froyo" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" />
+#!    <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="gingerbread" />
+#!    <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="gingerbread" />
+#!    <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
+#!    <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
+#!    <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="gingerbread" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -49,8 +47,10 @@
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -82,19 +82,25 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libgsm" name="platform/external/libgsm" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" />
+  <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/qemu" name="platform/external/qemu"  revision="tools_r6"/>
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/qemu" name="platform/external/qemu"  revision="tools_r7"/>
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
@@ -115,43 +121,44 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
-    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
-    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
-    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
-    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
-    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-froyo" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
-    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
-    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="froyo" />
-    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
-    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
-    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
-    <project path="external/lsof" name="android_external_lsof" remote="cvpcs" revision="lsof-4.84-froyo" />
-    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-froyo" />
-    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="froyo" />
-    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
-    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
-    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-froyo" />
-    <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="froyo" />
+#    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-gingerbread" />
+#!    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="gingerbread-gem" />
+#    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
+#    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-gingerbread" />
+#    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-gingerbread" />
+#!    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
+#    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
+#    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="gingerbread" />
+#    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-gingerbread" />
+#    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="gingerbread" />
+#    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-gingerbread" />
+#    <project path="external/lsof" name="android_external_lsof" remote="cvpcs" revision="lsof-4.84-gingerbread" />
+#    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-gingerbread" />
+#    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
+#    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="gingerbread" />
+#    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-gingerbread" />
+#!    <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="gingerbread" />
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-gem" />
-    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-gem" />
+#!    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="gingerbread-gem" />
+#!    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="gingerbread-gem" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cvpcs" revision="froyo-gem" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="froyo-gem" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="gingerbread-gem" />
+
+  <project path="libcore" name="platform/libcore" />
 
   <project path="ndk" name="platform/ndk" />
 
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -164,9 +171,10 @@
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -175,17 +183,18 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-    <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
-    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/GEMNotifications" name="android_packages_apps_GEMNotifications" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="master" />
+#    <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="gingerbread" />
+#!    <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="gingerbread-gem" />
+#    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="gingerbread" />
+#    <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
+#    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="gingerbread-gem" />
+#    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="gingerbread" />
+#    <project path="packages/apps/GEMNotifications" name="android_packages_apps_GEMNotifications" remote="cvpcs" revision="gingerbread" />
+#    <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="gingerbread" />
+#!    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="gingerbread-gem" />
+#!    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="master" />
 
   <project path="packages/experimental" name="platform/packages/experimental" />
 
@@ -200,8 +209,8 @@
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cvpcs" revision="froyo-gem" />
+#!    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cvpcs" revision="gingerbread-gem" />
+#!    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cvpcs" revision="gingerbread-gem" />
 
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -209,13 +218,14 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
+  <project path="sdk" name="platform/sdk"  revision="tools_r7"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-    <project path="system/core" name="android_system_core" remote="cvpcs" revision="froyo-gem" />
-    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="froyo-gem" />
-    <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="froyo-gem" />
+#!    <project path="system/core" name="android_system_core" remote="cvpcs" revision="gingerbread-gem" />
+#!    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="gingerbread-gem" />
+#!    <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="gingerbread-gem" />
 
-    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo-gem" />
+#!    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="gingerbread-gem" />
 </manifest>
