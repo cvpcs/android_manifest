@@ -11,12 +11,12 @@
            fetch="git://github.com/kruton/" />
   <remote  name="dylex"
            fetch="git://github.com/dylex/" />
-  <remote  name="koush"
-           fetch="git://github.com/koush/" />
+  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />
   <default revision="gingerbread"
            remote="korg" />
 
-#!  <project path="build" remote="cvpcs" name="android_build" revision="gingerbread-gem">
+  <project path="build" remote="cvpcs" name="android_build" revision="gingerbread-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -24,7 +24,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-#    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread" />
 
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -35,11 +35,11 @@
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
-#!    <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="gingerbread" />
+<!--    <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="gingerbread" />
 #!    <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="gingerbread" />
 #!    <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
-#!    <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
-#!    <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="gingerbread" />
+#!    <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />-->
+    <project path="device/motorola/sholes" name="android_device_motorola_sholes" remote="cvpcs" revision="gingerbread" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -121,14 +121,14 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
-#    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-gingerbread" />
-#!    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="gingerbread-gem" />
-#    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
-#    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-gingerbread" />
-#    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-gingerbread" />
-#!    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
-#    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
-#    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="gingerbread" />
+<!--    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-gingerbread" />-->
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="gingerbread-gem" />
+<!--    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
+    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-gingerbread" />
+    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-gingerbread" />-->
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
+    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
+<!--#    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="gingerbread" />
 #    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-gingerbread" />
 #    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="gingerbread" />
 #    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-gingerbread" />
@@ -136,13 +136,12 @@
 #    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-gingerbread" />
 #    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
 #    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="gingerbread" />
-#    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-gingerbread" />
-#!    <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="gingerbread" />
+#    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-gingerbread" />-->
+    <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="gingerbread" />
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-#!    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="gingerbread-gem" />
-#!    <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="gingerbread-gem" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
@@ -185,16 +184,16 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-#    <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="gingerbread" />
-#!    <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="gingerbread-gem" />
-#    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="gingerbread" />
-#    <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
-#    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="gingerbread-gem" />
-#    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="gingerbread" />
-#    <project path="packages/apps/GEMNotifications" name="android_packages_apps_GEMNotifications" remote="cvpcs" revision="gingerbread" />
-#    <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="gingerbread" />
-#!    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="gingerbread-gem" />
-#!    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="master" />
+<!--    <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="gingerbread" />-->
+    <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="gingerbread-gem" />
+<!--    <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="gingerbread" />
+    <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
+    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="gingerbread" />
+    <project path="packages/apps/GEMNotifications" name="android_packages_apps_GEMNotifications" remote="cvpcs" revision="gingerbread" />-->
+    <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="packages/apps/SuperUser" remote="ChainsDD" name="android_packages_apps_Superuser" revision="master" />
 
   <project path="packages/experimental" name="platform/packages/experimental" />
 
@@ -205,12 +204,12 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-#!    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cvpcs" revision="gingerbread-gem" />
-#!    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cvpcs" revision="gingerbread-gem" />
 
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -218,14 +217,16 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
+
   <project path="sdk" name="platform/sdk"  revision="tools_r7"/>
+
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-#!    <project path="system/core" name="android_system_core" remote="cvpcs" revision="gingerbread-gem" />
-#!    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="gingerbread-gem" />
-#!    <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="system/core" name="android_system_core" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="gingerbread-gem" />
 
-#!    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="gingerbread-gem" />
+    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo-gem" />
 </manifest>
