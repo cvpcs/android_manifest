@@ -227,5 +227,5 @@
     <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="gingerbread-gem" />
     <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="gingerbread-gem" />
 
-    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="froyo-gem" />
+    <project path="vendor/cvpcs" name="android_vendor_cvpcs" remote="cvpcs" revision="gingerbread-gem" />
 </manifest>
