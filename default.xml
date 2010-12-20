@@ -123,20 +123,20 @@
   <project path="external/zlib" name="platform/external/zlib" />
 <!--    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-gingerbread" />-->
     <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="gingerbread-gem" />
-<!--    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
-    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-gingerbread" />
+    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
+<!--    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-gingerbread" />
     <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-gingerbread" />-->
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
     <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
 <!--#    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="gingerbread" />
-#    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-gingerbread" />
-#    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="gingerbread" />
-#    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-gingerbread" />
+#    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-gingerbread" />-->
+    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="gingerbread" />
+<!--#    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-gingerbread" />
 #    <project path="external/lsof" name="android_external_lsof" remote="cvpcs" revision="lsof-4.84-gingerbread" />
 #    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-gingerbread" />
-#    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
-#    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="gingerbread" />
-#    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-gingerbread" />-->
+#    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />-->
+    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="gingerbread" />
+<!--#    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-gingerbread" />-->
     <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="gingerbread" />
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
