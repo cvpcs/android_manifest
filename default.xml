@@ -176,17 +176,13 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-    <project path="packages/apps/ADWLauncher" name="android_packages_apps_ADWLauncher" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="CyanogenMod" revision="master" />
     <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="froyo-gem" />
     <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="froyo" />
-    <project path="packages/apps/CytownPhone" name="android_packages_apps_CytownPhone" remote="cvpcs" revision="master" />
     <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/EliotStockerMusic" name="android_packages_apps_EliotStockerMusic" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/GEMNotifications" name="android_packages_apps_GEMNotifications" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/GEMSettings" name="android_packages_apps_GEMSettings" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cvpcs" revision="froyo-gem" />
-    <project path="packages/apps/SuperUser" remote="CyanogenMod" name="android_packages_apps_Superuser" revision="master" />
+    <project path="packages/apps/SuperUser" name="android_packages_apps_Superuser" remote="CyanogenMod" revision="master" />
 
   <project path="packages/experimental" name="platform/packages/experimental" />
 
