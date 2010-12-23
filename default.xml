@@ -176,6 +176,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+    <project path="packages/apps/AppWidgetPicker" name="android_packages_apps_AppWidgetPicker" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cvpcs" revision="froyo-gem" />
     <project path="packages/apps/CWiiDConfig" name="android_packages_apps_CWiiDConfig" remote="cvpcs" revision="froyo" />
     <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cvpcs" revision="froyo-gem" />
