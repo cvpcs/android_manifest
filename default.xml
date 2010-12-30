@@ -143,10 +143,10 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cvpcs" revision="froyo-gem" />
     <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="froyo-gem" />
+    <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cvpcs" revision="froyo-gem" />
 
   <project path="ndk" name="platform/ndk" />
 
