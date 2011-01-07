@@ -27,7 +27,7 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="froyo" />
 
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+    <project path="development" name="android_development" remote="cvpcs" revision="froyo-gem" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
