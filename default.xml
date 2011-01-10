@@ -31,12 +31,6 @@
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream" name="device/htc/dream" />
-  <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/htc/sapphire" name="device/htc/sapphire" />
-  <project path="device/sample" name="device/sample" />
     <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="froyo" />
     <project path="device/htc/mecha" name="android_device_htc_mecha" remote="cvpcs" revision="froyo" />
     <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="froyo" />
