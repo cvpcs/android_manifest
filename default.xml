@@ -24,7 +24,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="froyo-rzr" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread-rzr" />
 
   <project path="dalvik" name="platform/dalvik" />
     <project path="development" name="android_development" remote="cvpcs" revision="froyo-gem" />
