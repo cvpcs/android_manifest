@@ -126,6 +126,7 @@
     <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
     <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
     <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="froyo" />
+    <project path="external/xz" name="android_external_xz" remote="cvpcs" revision="froyo" />
     <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="froyo" />
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
