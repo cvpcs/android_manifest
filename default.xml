@@ -25,6 +25,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
     <project path="device/htc/inc" name="android_device_htc_inc" remote="cvpcs" revision="gingerbread" />
+    <project path="device/htc/mecha" name="android_device_htc_mecha" remote="cvpcs" revision="gingerbread" />
     <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="cvpcs" revision="gingerbread" />
     <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="cvpcs" revision="gingerbread" />
     <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="cvpcs" revision="gingerbread" />
