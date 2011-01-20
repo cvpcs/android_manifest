@@ -10,7 +10,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android_build" remote="cvpcs" revision="gingerbread-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -18,7 +18,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread-rzr" />
 
   <project path="dalvik" name="platform/dalvik" />
 
