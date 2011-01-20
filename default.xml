@@ -5,6 +5,8 @@
            review="review.source.android.com" />
   <remote  name="cvpcs"
            fetch="git://github.com/cvpcs/" />
+  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />
   <default revision="gingerbread"
            remote="korg" />
 
@@ -114,6 +116,23 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="gingerbread" />
+    <!--<project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />-->
+    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="gingerbread" />
+    <!--<project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="froyo" />-->
+    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="gingerbread" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="gingerbread" />
+    <!--<project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />-->
+    <!--<project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="froyo" />-->
+    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="gingerbread" />
+    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="gingerbread" />
+    <project path="external/lsof" name="android_external_lsof" remote="cvpcs" revision="gingerbread" />
+    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="gingerbread" />
+    <project path="external/rsync" name="android_external_rsync" remote="CyanogenMod" revision="gingerbread" />
+    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="gingerbread" />
+    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="gingerbread" />
+    <project path="external/xz" name="android_external_xz" remote="cvpcs" revision="gingerbread" />
+    <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="gingerbread" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
