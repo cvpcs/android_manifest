@@ -16,7 +16,7 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" remote="cvpcs" name="android_build" revision="froyo-gem">
+  <project path="build" remote="cvpcs" name="android_build.gem" revision="froyo-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -24,7 +24,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="gingerbread-rzr" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="cvpcs" revision="froyo-rzr" />
 
   <project path="dalvik" name="platform/dalvik" />
     <project path="development" name="android_development" remote="cvpcs" revision="froyo-gem" />
@@ -112,7 +112,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/zlib" name="platform/external/zlib" />
     <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="froyo" />
-    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez.gem" remote="cvpcs" revision="froyo-gem" />
     <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
     <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="froyo" />
     <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="froyo" />
@@ -131,7 +131,7 @@
 
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="cvpcs" revision="froyo-gem" />
+    <project path="frameworks/base" name="android_frameworks_base.gem" remote="cvpcs" revision="froyo-gem" />
     <project path="frameworks/policies/base" name="android_frameworks_policies_base" remote="cvpcs" revision="froyo-gem" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -139,8 +139,8 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cvpcs" revision="froyo-gem" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cvpcs" revision="froyo-gem" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware.gem" remote="cvpcs" revision="froyo-gem" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy.gem" remote="cvpcs" revision="froyo-gem" />
     <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cvpcs" revision="froyo-gem" />
 
   <project path="ndk" name="platform/ndk" />
@@ -206,7 +206,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-    <project path="system/core" name="android_system_core" remote="cvpcs" revision="froyo-gem" />
+    <project path="system/core" name="android_system_core.gem" remote="cvpcs" revision="froyo-gem" />
     <project path="system/extras" name="android_system_extras" remote="cvpcs" revision="froyo-gem" />
     <project path="system/vold" name="android_system_vold" remote="cvpcs" revision="froyo-gem" />
 
